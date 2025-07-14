@@ -28,7 +28,7 @@ In the following, we summarize the processed change detection data set used in t
       │   ├── label(label_bn_vis for SECOND)
 ```
 
-2. Construct_Single_Temporal.
+2. Construct single temporal data.
 
 ```
 cd 0_Construct_Single_Temporal/SYSU-CD
@@ -36,7 +36,7 @@ cd 0_Construct_Single_Temporal/SYSU-CD
 python SYSU_construct_single_temporal_set.py
 ```
 
-4. EfficientSAM_Generate
+3. EfficientSAM mask generate
    
 ```
 cd 1_EfficientSAM_Generate
@@ -48,7 +48,7 @@ python EffSAM_VitS_seg_anything_SYSU_N10.py
 
    [Baidu](https://pan.baidu.com/s/1yKN5yMVEPQEFRS_z3SAOHw?pwd=ymih))
 
-6. Training
+4. Training
    
 ```
 cd STUSAMI
@@ -56,7 +56,7 @@ cd STUSAMI
 bash my_run.sh
 ```
 
-8. Inference and evaluation
+5. Inference and evaluation
    
 ```
 bash my_inference.sh

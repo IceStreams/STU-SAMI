@@ -30,15 +30,19 @@ In the following, we summarize the processed change detection data set used in t
 
 2. Construct_Single_Temporal.
 
+  ```
    cd 0_Construct_Single_Temporal/SYSU-CD
    
    python SYSU_construct_single_temporal_set.py
+```
 
 4. EfficientSAM_Generate
    
+   ```
    cd 1_EfficientSAM_Generate
    
    python EffSAM_VitS_seg_anything_SYSU_N10.py
+   ```
 
    (The pretrained weight of EfficientSAM-Vits is visible in the links below:
 
@@ -46,13 +50,17 @@ In the following, we summarize the processed change detection data set used in t
 
 6. Training
    
+   ```
    cd STUSAMI
    
    bash my_run.sh
+   ```
 
 8. Inference and evaluation
    
+   ```
    bash my_inference.sh
+   ```
 
 ## Pretrained Models
 

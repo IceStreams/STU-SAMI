@@ -28,7 +28,7 @@ In the following, we summarize the processed change detection data set used in t
       │   ├── label(label_bn_vis for SECOND)
 ```
 
-2. Construct single temporal data.
+2. Construct single temporal data. (SYSU-CD as an example)
 
 ```
 cd 0_Construct_Single_Temporal/SYSU-CD
@@ -36,7 +36,7 @@ cd 0_Construct_Single_Temporal/SYSU-CD
 python SYSU_construct_single_temporal_set.py
 ```
 
-3. EfficientSAM mask generate
+3. EfficientSAM mask generate. (SYSU-CD as an example)
    
 ```
 cd 1_EfficientSAM_Generate

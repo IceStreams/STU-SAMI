@@ -56,9 +56,7 @@ In the following, we summarize the processed change detection data set used in t
 
 ## Pretrained Models
 
-The reproducible weights of STU_SAMI on the three benchmark datasets are visible in the links below:
-
-[Baidu](https://pan.baidu.com/s/1o1s6pP2-ipGnoarKmvLOnA?pwd=awhr)
+The reproducible weights of STU_SAMI on the three benchmark datasets are visible in the links below: [Baidu](https://pan.baidu.com/s/1o1s6pP2-ipGnoarKmvLOnA?pwd=awhr)
 
 ## Cite STU_SAMI
 

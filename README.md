@@ -3,6 +3,28 @@ Pytorch codes of **Integrating Segment Anything Model with Instance-Level Change
 
 <img width="1585" height="1065" alt="image" src="https://github.com/user-attachments/assets/e3459799-9a4b-4b29-b3a9-453387a784f4" />
 
+## Environment
+
+```
+  System: Windows10
+  
+  Python: 3.8.19
+  
+  torch: 2.1.2+cu118
+  
+  torchaudio: 2.1.2+cu118
+  
+  torchvision: 0.16.2+cu118
+  
+  numpy: 1.24.1
+  
+  albumentations: 1.4.3
+  
+  opencv-python: 4.9.0.80
+  
+  etc
+```
+
 ## Dataset Download
 
 In the following, we summarize the processed change detection data set used in this paper:
@@ -14,7 +36,7 @@ In the following, we summarize the processed change detection data set used in t
 ## How to Use
 
 1. Dataset preparation.
-   * Please split the data into training, validation and test sets and organize them as follows:
+   * Please split the data into training and testing sets and organize them as follows:
 ```
       YOUR_DATA_DIR
       ├── ...
@@ -53,7 +75,7 @@ python EffSAM_VitS_seg_anything_SYSU_N10.py
 ```
 cd STUSAMI
    
-bash my_run.sh
+bash my_train.sh
 ```
 
 5. Inference and evaluation

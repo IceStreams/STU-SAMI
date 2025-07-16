@@ -6,7 +6,7 @@ LastEditTime: 2025-07-14 16:16:07
 Description: file function description
 '''
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import torch
 import time
 import numpy as np

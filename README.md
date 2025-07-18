@@ -96,12 +96,12 @@ If you find this work useful or interesting, please consider citing the followin
 @ARTICLE{11071869,
   author={Zuo, Xibing and Rui, Jie and Ding, Lei and Jin, Fei and Lin, Yuzhun and Wang, Shuxiang and Liu, Xiao and Lei, Juan},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Integrating Segment Anything Model with Instance-Level Change Generation for Single-Temporal Unsupervised Change Detection}, 
+  title={Integrating Segment Anything Model With Instance-Level Change Generation for Single-Temporal Unsupervised Change Detection}, 
   year={2025},
-  volume={},
+  volume={63},
   number={},
-  pages={1-1},
-  keywords={Training;Feature extraction;Image segmentation;Buildings;Adaptation models;Unsupervised learning;Remote sensing;Optimization;Generative adversarial networks;Annotations;Remote sensing;Single-temporal unsupervised change detection;Segment anything model;Instance-level change generation},
+  pages={1-17},
+  keywords={Training;Feature extraction;Image segmentation;Buildings;Adaptation models;Unsupervised learning;Remote sensing;Optimization;Generative adversarial networks;Annotations;Instance-level change generation;remote sensing;segment anything model (SAM);single-temporal unsupervised change detection (CD)},
   doi={10.1109/TGRS.2025.3586102}}
 ```
 
